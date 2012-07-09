@@ -1,11 +1,11 @@
-git clone git://gitorious.org/qtplayground/qtserialport.git - вытащить сериалпорт
+git clone git://gitorious.org/qtplayground/qtserialport.git - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
-git remote add origin https://github.com/d2mitry/banan.git - добавить гитхаб как репозиторий
-git push -u origin master - запушить изменения на гитхаб
+git remote add origin https://github.com/d2mitry/banan.git - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+git push -u origin master - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
 
 github
-d2m@e-generator.ru gbpltw12
+d2m@e-generator.ru gbpltwodindva
 
 username d2mitry
 

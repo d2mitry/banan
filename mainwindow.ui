@@ -45,13 +45,28 @@
            </attribute>
            <layout class="QVBoxLayout" name="verticalLayout_3">
             <item>
-             <widget class="QwtPlot" name="gyroPlot"/>
+             <widget class="QwtPlot" name="gyroPlot">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+             </widget>
             </item>
             <item>
-             <widget class="QwtPlot" name="accelPlot"/>
+             <widget class="QwtPlot" name="accelPlot">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+             </widget>
             </item>
             <item>
-             <widget class="QwtPlot" name="magPlot"/>
+             <widget class="QwtPlot" name="magPlot">
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="propertiesDocument" stdset="0">
+               <string/>
+              </property>
+             </widget>
             </item>
            </layout>
           </widget>
@@ -100,7 +115,7 @@
         <item>
          <widget class="QPushButton" name="settingsBtn">
           <property name="text">
-           <string>Setings</string>
+           <string>Settings</string>
           </property>
          </widget>
         </item>
@@ -138,6 +153,28 @@
           </property>
          </spacer>
         </item>
+        <item>
+         <widget class="QwtCompass" name="Compass">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="lineWidth">
+           <number>2</number>
+          </property>
+          <property name="frameShadow">
+           <enum>QwtDial::Plain</enum>
+          </property>
+          <property name="mode">
+           <enum>QwtDial::RotateNeedle</enum>
+          </property>
+          <property name="origin">
+           <double>270.000000000000000</double>
+          </property>
+          <property name="direction">
+           <enum>QwtDial::Clockwise</enum>
+          </property>
+         </widget>
+        </item>
        </layout>
       </item>
      </layout>
@@ -155,7 +192,7 @@
    </property>
    <widget class="QMenu" name="menuFile">
     <property name="title">
-     <string>File</string>
+     <string>Banan</string>
     </property>
    </widget>
    <widget class="QMenu" name="menuAbout">
@@ -182,6 +219,16 @@
    <class>QwtPlot</class>
    <extends>QFrame</extends>
    <header>qwt_plot.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QwtCompass</class>
+   <extends>QwtDial</extends>
+   <header>qwt_compass.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QwtDial</class>
+   <extends>QWidget</extends>
+   <header>qwt_dial.h</header>
   </customwidget>
   <customwidget>
    <class>QwtTextLabel</class>

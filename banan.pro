@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+CONFIG += serialport
 
 TARGET = banan
 TEMPLATE = app

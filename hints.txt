@@ -1,0 +1,11 @@
+git clone git://gitorious.org/qtplayground/qtserialport.git - вытащить сериалпорт
+
+git remote add origin https://github.com/d2mitry/banan.git - добавить гитхаб как репозиторий
+git push -u origin master - запушить изменения на гитхаб
+
+
+github
+d2m@e-generator.ru gbpltw12
+
+username d2mitry
+

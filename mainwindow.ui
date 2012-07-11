@@ -106,6 +106,70 @@
          </widget>
         </item>
         <item>
+         <widget class="QComboBox" name="port_selector">
+          <item>
+           <property name="text">
+            <string>COM1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>COM2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>COM3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>COM4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>COM5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>COM6</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>COM7</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>COM8</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>COM9</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>COM10</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>COM11</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>COM12</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
          <widget class="QPushButton" name="startBtn">
           <property name="text">
            <string>Start</string>
@@ -246,7 +310,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>1152</x>
-     <y>171</y>
+     <y>190</y>
     </hint>
     <hint type="destinationlabel">
      <x>1192</x>

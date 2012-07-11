@@ -9,3 +9,8 @@ d2m@e-generator.ru gbpltw12
 
 username d2mitry
 
+
+http://www.java2s.com/Code/Cpp/Qt/Calculatorwithpushbuttons.htm
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com

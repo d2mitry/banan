@@ -12,9 +12,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    communiqthread.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    communiqthread.h
 
 FORMS    += mainwindow.ui
 
